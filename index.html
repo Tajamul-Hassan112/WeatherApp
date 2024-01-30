@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <span><input type="search" class="sea" id="sea" placeholder="Enter City Name"> <i
+                    class="fa-solid fa-magnifying-glass"></i></span>
+        </div>
+        <div class="image">
+            <img src="./sun.png" alt="weather">
+            <h1 class ="temp">27°C</h1>
+            <h2 class="city">Bengaluru</h2>
+        </div>
+        <div class="lower">
+            <div class="lower-content">
+                <h1><i class='fas fa-water' style='font-size:36px'></i> <span class="per">30%</span>
+                    <p class="humid">Humidity</p>
+                </h1>
+                <h1><i class='fa-solid fa-wind' id='done' style='font-size:36px'></i><span class="windspeed">5.66
+                        km/h</span>
+                    <p class="pwind">wind speed</p>
+                </h1>
+            </div>
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
